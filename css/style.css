@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6;
+    color:#333;
+    font-size: 16px;
+    background-image:linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url(../img/bg2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-position: fixed;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+.py-5 {
+    padding: 100px o !important;
+}
+.btn {
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+}
+.btn:hover {
+    background: white;
+    color: black;
+}
+/*****NAV*****/
+
+nav {
+    padding: 20px 0;
+    transition: 0.5s all;
+    background: transparent;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: orange; 
+}
+.navbar-brand:hover {
+    transition: 0.4s ease;
+    color: white; 
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav-link:hover {
+    color: white;
+    transition: 0.4s ease;
+}
+.stickyAdd {
+    background: darkorange;
+    padding: 15px 0;
+    box-shadow: 0 1px 10px 5px rgba(0,0,0,.1);
+    transition: 0.5s all ease-in-out;
+
+}
+.stickyAdd .navbar-brand {
+    color: black;
+}
+.stickyAdd .nav-link {
+    color: black;
+}
+.stickyAdd .navbar-brand:hover {
+    color: white;
+}
+.stickyAdd .nav-link:hover {
+    color: white;
+}
+/*****HEADER*****/
+
+header {
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header .container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+header h4 {
+    font-size: 1.5rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: darkorange;
+}
+.element {
+    color: white;
+}
+/*****O MENI*****/
+
+#omeni a {
+    color: white;
+    font-size: 2rem;
+    margin-right: 20px;
+
+}
+#omeni a:hover {
+    color: darkorange;
+    transition: 0.4 ease;
+    
+}
+/*****USLUGE*****/
+
+#usluge {
+    background: rgba(255,140,0,0.8);
+}
+#usluge .card {
+    background: black;
+    color: white;
+    padding: 40px;
+}
+#usluge i {
+    font-size: 2rem;
+    color: darkorange;
+
+}
+#usluge h5::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: darkorange;
+    margin: 20px auto;
+}
+#usluge h5 {
+    font-size: 1.5rem;
+}
+/*****TEHNOLOGIJE*****/
+
+#tehnologije {
+    background: rgba(255,140,0,0.8);
+}
+/*****PORTFOLIO*****/
+.filter-container .col-md-4 img {
+    margin-bottom: 30px;
+}
